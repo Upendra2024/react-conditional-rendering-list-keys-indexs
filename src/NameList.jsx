@@ -28,7 +28,7 @@ export const NameList = () => {
       skill: 'python',
     },
   ];
-
+//here we are using index as a key 
   const PersonList = persons.map((person ,index) => <Person key = {index} person={person} index = {index} />);
   return <div> {PersonList}</div>;
 };
